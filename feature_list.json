@@ -1,0 +1,12 @@
+{
+  "features": [
+    {
+      "id": "feat-001",
+      "name": "Fork setup: main branch + dcnet-workflow harness",
+      "description": "Private development on main (origin/main); master tracks upstream/master for pulling upstream features. Harness state files, init.sh, docs/specs, docs/plans, knowledge/ bundle.",
+      "dependencies": [],
+      "status": "done",
+      "evidence": "2026-10-09: ./init.sh passed (Node v24.21.0, pnpm 9.15.4, pnpm install --frozen-lockfile + pnpm -r typecheck); pnpm dev started, /api/health checked"
+    }
+  ]
+}
